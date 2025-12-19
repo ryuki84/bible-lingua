@@ -4,6 +4,7 @@ import '../widgets/app_card.dart';
 import '../widgets/progress_dots.dart';
 import 'learning_placeholder_screen.dart';
 import 'memory_placeholder_screen.dart';
+import 'memorization_read_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -39,7 +40,7 @@ class HomeScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (_) => const MemoryPlaceholderScreen(),
+                    builder: (_) => const MemorizationReadScreen(),
                   ),
                 );
               },
